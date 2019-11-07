@@ -10,7 +10,7 @@ body {
 .App {
   height: 100vh;
   width: 100%;
-  background-image: linear-gradient(to top right, rgba(38, 48, 209, 0.7), rgba(146, 102, 218, 0.7)), url('../src/assets/inline_image_preview.jpg');
+  background-image: url('../src/assets/Nature.jpg');
   background-size: cover;
 
   display: flex;

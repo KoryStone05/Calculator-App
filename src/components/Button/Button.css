@@ -1,0 +1,35 @@
+.Button {
+    width: 25%;
+    height: 100%;
+    font-size: 35px;
+    background-color: white;
+    color: sandybrown;
+    outline: none;
+    border: 1px solid transparent;
+    transition: all .2s;
+    font-weight: bold;
+}
+
+.Button:hover {
+    background-color: sandybrown;
+    color: #3e8050;
+}
+
+.Button:active {
+    transform: scale(.95);
+}
+
+.Button-primary {
+    color: rebeccapurple;
+}
+
+.Button-operator {
+    color: orange;
+}
+
+.Button-large {
+    color: white;
+    background-color: red;
+    width: 50%;
+    border-radius: 0 0 15px 0;
+}
