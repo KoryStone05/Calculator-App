@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './Calculator.css';
 import Screen from '../Screen/Screen';
+import ComputationScreen from '../ComputationScreen/ComputationScreen';
 
 
 /* Main calculator component. Contains our other calculator components. */
