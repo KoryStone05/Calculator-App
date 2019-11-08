@@ -41,7 +41,7 @@ class Keypad extends Component {
 
                 {/* Row 5 */}
                 <KeypadRow>
-                <Button OnButtonPress={this.props.onButtonPress} >0</Button>
+                <Button OnButtonPress={this.props.onButtonPress} type='secondary'>0</Button>
                 <Button OnButtonPress={this.props.onButtonPress} >.</Button>
                 <Button OnButtonPress={this.props.onButtonPress} type='large'>=</Button>
                 </KeypadRow>

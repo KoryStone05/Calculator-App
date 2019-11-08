@@ -10,7 +10,7 @@ body {
 .App {
   height: 100vh;
   width: 100%;
-  background-image: url('../src/assets/Nature.jpg');
+  background-image: url('../src/assets/Iceland.jpg');
   background-size: cover;
 
   display: flex;

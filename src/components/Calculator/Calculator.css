@@ -1,13 +1,14 @@
 .Calculator {
-    background-color: rgb(179, 179, 179);
+    background-color: rgb(0, 0, 0);
     height: 80vh;
     width: 25%;
     -webkit-box-shadow: 36px 31px 81px -6px rgba(0,0,0,0.75);
     -moz-box-shadow: 36px 31px 81px -6px rgba(0,0,0,0.75);
     box-shadow: 36px 31px 81px -6px rgba(0,0,0,0.75);
     border-radius: 20px;
-    border: 4px #3e8050 solid;
+    border: 4px rgb(73, 255, 73) solid;
     opacity: 0.9;
+    font-family: 'Iceland', cursive;
 }
 
 @media screen and (max-width: 1280px) {

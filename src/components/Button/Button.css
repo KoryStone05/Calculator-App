@@ -1,19 +1,20 @@
 .Button {
     width: 25%;
     height: 100%;
-    font-size: 35px;
+    font-size: 50px;
     background-color: rgb(177, 177, 177);
-    color: rgb(255, 202, 155);
+    color: rgb(145, 145, 145);
     outline: none;
-    border: 1px solid transparent;
+    border: .1 solid rgb(145, 145, 145);
     transition: all .2s;
     font-weight: bold;
     opacity: 0.9;
+    font-family: 'Iceland', cursive;
 }
 
 .Button:hover {
-    background-color: sandybrown;
-    color: #3e8050;
+    background-color: rgb(145, 145, 145);
+    color: rgb(73, 255, 73);
 }
 
 .Button:active {
@@ -21,16 +22,31 @@
 }
 
 .Button-primary {
-    color: #3e8050;
+    color: rgb(73, 255, 73);
+}
+
+.Button-primary:hover {
+    background-color: rgb(73, 255, 73);
+    color: rgb(145, 145, 145);
 }
 
 .Button-operator {
-    color: orange;
+    color: rgb(145, 145, 145);
 }
 
 .Button-large {
     color: white;
-    background-color: #3e8050;
+    background-color: rgb(73, 255, 73);
     width: 50%;
     border-radius: 0 0 15px 0;
+
+}
+
+.Button-large:hover {
+    color: rgb(73, 255, 73);
+    background-color: rgb(145, 145, 145);
+}
+
+.Button-secondary {
+    border-radius: 0 0 0 15px;
 }
