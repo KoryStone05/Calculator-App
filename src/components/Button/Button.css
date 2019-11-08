@@ -2,12 +2,13 @@
     width: 25%;
     height: 100%;
     font-size: 35px;
-    background-color: white;
-    color: sandybrown;
+    background-color: rgb(177, 177, 177);
+    color: rgb(255, 202, 155);
     outline: none;
     border: 1px solid transparent;
     transition: all .2s;
     font-weight: bold;
+    opacity: 0.9;
 }
 
 .Button:hover {
@@ -20,7 +21,7 @@
 }
 
 .Button-primary {
-    color: rebeccapurple;
+    color: #3e8050;
 }
 
 .Button-operator {
@@ -29,7 +30,7 @@
 
 .Button-large {
     color: white;
-    background-color: red;
+    background-color: #3e8050;
     width: 50%;
     border-radius: 0 0 15px 0;
 }
